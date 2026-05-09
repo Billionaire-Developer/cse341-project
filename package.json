@@ -1,0 +1,20 @@
+{
+  "name": "cse341-project",
+  "version": "1.0.0",
+  "description": "my cse341 project",
+  "homepage": "https://github.com/Billionaire-Developer/cse341-project#readme",
+  "bugs": {
+    "url": "https://github.com/Billionaire-Developer/cse341-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Billionaire-Developer/cse341-project.git"
+  },
+  "license": "ISC",
+  "author": "Billionaire_Developer",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
