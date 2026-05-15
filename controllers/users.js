@@ -49,9 +49,9 @@ const updateUser = async(req, res) =>{
     };
     const response = await mongodb.getDatabase().db().collection('users').replaceOne({_id: userID}, user);
     if(response.modifiedCount > 0){
-        res.send(204).send();
+        res.status(204).send();
     }else{
-        res.send(500).json(response.error || `some error occurred while updating the user.`);
+        res.status(500).json(response.error || `some error occurred while updating the user.`);
     }
 }
 
